@@ -68,7 +68,7 @@ h1{
     margin: 0;
 }
 
-.container > p{
+.container p{
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
@@ -91,34 +91,34 @@ h1{
 /*Second section*/
 
 .informations{
-    padding-left: 220px;
-    padding-right: 220px;
+    padding: 40px 220px;
     margin: 0;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 h2{
-    text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    padding: 0;
+    margin: 0;
 }
 
 .cards-container{
     display: flex;
     justify-content: center;
-    gap: 2px;
-    align-items: baseline;
-    flex-shrink: 0;
-    margin: 0;
-    padding: 0;
+    padding: 30px 120px;
+    gap: 60px;
 }
+
 .infos-card{
     flex-direction: column;
     text-align: center;
-    width: 300px;
+    width: 160px;
 }
 
 .clipart{
@@ -126,13 +126,15 @@ h2{
     height: 160px;
     border-radius: 15px;
     border: 4px solid #3882F6;
+    margin: 0;
+    padding: 0;
 }
 
-.infos-card>p{
-    display: flex;
-    width:150px;
-    flex:1;
-    flex-shrink: 0;
+.infos-card legend{
+    text-align: justify;
+    text-align-last: center;
+    color: #1F2937;
+    font-size: 18px;
 }
 
 /*Third section*/
