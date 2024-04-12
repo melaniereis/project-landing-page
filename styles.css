@@ -2,17 +2,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 .section{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    margin: 0;
     padding-top: 0;
     padding-bottom: 40px;
+}
+
+.section,.informations,.quote,.alert,.footer{
     padding-left: 100px;
     padding-right: 100px;
+    margin: 0;
 }
 
 .header{
