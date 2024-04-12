@@ -1,4 +1,46 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+    flex-direction: column;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.introduction, .cards-container{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+
+.container, .picture-box, .informations, .infos-card{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.footer{
+   
 }
