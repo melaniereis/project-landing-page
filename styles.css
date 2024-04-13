@@ -45,6 +45,10 @@ a{
     color: #E5E7EB;
 }
 
+a:hover{
+    color: #9da3ae;
+}
+
 .introduction{
     display: flex;
     flex:1;
@@ -221,7 +225,41 @@ button{
     flex-shrink: 0;
 }
 
+button:hover{
+    background-color: #3f6095;
+}
+
 .border{
     border: 2px solid #F9FAF8;
 }
 
+/*gallery.html*/
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+  
+.gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.top{
+    background-color: #1F2937;
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+
+.return{
+    text-align: center;
+}
