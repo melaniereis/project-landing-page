@@ -260,6 +260,14 @@ button:hover{
     justify-content: center;
 }
 
-.return{
+/*aboutme.html*/
+.introduction.reverse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 0;
+    padding: 80px 0;
     text-align: center;
 }
